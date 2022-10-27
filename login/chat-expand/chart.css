@@ -1,0 +1,18 @@
+canvas{
+    
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+.chart{
+    display: flex;
+}
+.headings{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+}

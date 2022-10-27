@@ -1,0 +1,144 @@
+#main {
+	border: 1px solid #666;
+	clear: both;
+	background: #d0e5f8;
+	padding-top:24px;
+}
+
+#contents {
+	padding: 10px;
+	background-color: #f5f6f8;
+	}
+
+#header {
+	position: relative;
+	width: 100%;
+	height: 3em;
+	width: 45em; /* a width is required for Opera, older Mozilla browsers, and Konqueror browsers */
+}
+
+#header ul#primary {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	bottom: -1px;
+	width: 700px; /* a width is required for Opera, older Mozilla browsers, and Konqueror browsers */
+}
+
+#header ul#primary li  {
+	display: inline;
+	list-style: none;
+}
+
+#header ul#primary a,#header ul#primary span,#header ul#primary a.current {
+	width: 8em;
+	display: block;
+	float: left;
+	padding: 4px 0;
+	margin: 1px 2px 0 0;
+	text-align: center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style:normal;
+	font-weight:bold;
+	text-decoration: none;
+	color: #063e7c;
+}
+
+#header ul#primary span,#header ul#primary a.current,#header ul#primary a.current:hover {
+padding: 3px 5px;
+text-decoration: none;
+padding-right: 32px; /*extra right padding to account for curved right edge of tab image*/
+color:#00396d;
+background: transparent url(../media/righttabselected.gif) 100% 0 no-repeat;/*give illusion of shifting 1px down vertically*/
+border-left: 1px solid #666666;
+position: relative;
+display: block;
+float: left;
+margin-left: -20px; /*shift tabs 20px to the left so they overlap*/
+left: 20px;
+
+}
+
+#header ul#primary a {
+padding: 3px 7px;
+text-decoration: none;
+padding-right: 32px; /*extra right padding to account for curved right edge of tab image*/
+color: #00396d;
+background: transparent url(../media/righttabdefault.gif) 100% 1px no-repeat; /*give illusion of shifting 1px down vertically*/
+border-left: 1px solid #666666;
+position: relative;
+display: block;
+float: left;
+margin-left: -20px; /*shift tabs 20px to the left so they overlap*/
+left: 20px;
+}
+
+#header ul#primary a:hover {
+	margin-top: 0;
+	border-color: #666;
+	background: #FFF7CD;
+	background: transparent url(../media/righttabdefault01.gif) 100% 1px no-repeat;
+	padding-bottom: 5px;
+}
+
+#header ul#secondary {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	bottom: -18px;
+	left: 3px;
+	width: 780px; /* a width is required for Opera, older Mozilla browsers, and Konqueror browsers */
+}
+#header ul#secondary01 {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	bottom: -18px;
+	left: 3px;
+	width: 795px; /* a width is required for Opera, older Mozilla browsers, and Konqueror browsers */
+}
+#header ul#secondary li a,#header ul#secondary li span {
+	width: auto;
+	display: block;
+	float: left;
+	padding: 0 10px;
+	margin: 0;
+	text-align: auto;
+	border: none;
+	border-right: 1px dotted #AAA;
+	background: none;
+
+}
+
+#header ul#secondary li a {
+	color: #06C;
+	text-decoration: underline;
+}
+
+#header ul#secondary li a:hover {
+	color: #333;
+	background: transparent;
+	padding: 0 10px;
+	border: none;
+	border-right: 1px dotted #AAA;
+}
+
+#header ul#secondary li a:active {
+	color: #000;
+	background: transparent;
+}
+
+#header ul#secondary li:last-child a { border: none; }
+a.blacktxt{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-style:normal;
+font-weight:normal;
+font-size:11px;
+color:#000000;
+text-decoration:none;
+}
+a.blacktxt:hover{
+color:#84a2c2;
+text-decoration:none;
+}

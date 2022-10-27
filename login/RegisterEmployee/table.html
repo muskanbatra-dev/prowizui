@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        h3{
+            text-align: center;
+            text-decoration: underline;
+        }
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+          margin-top: 100px;
+        }
+        th{
+            background-color: #FFD966;
+        }
+        </style>
+</head>
+<body>
+    <h1>Pre Onboarding Module - Register Employee Information ATS Information Page</h1>
+
+    <h3>ATS Information page - Selected candidate information requirement</h3>
+    <table>
+        <tr>
+          <th>Date ID</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Department Name</th>
+          <th>Grade</th>
+          <th>Joining Date</th>
+          <th>Candidate email id</th>
+          <th>Candidate mobile number</th>
+          <th>Hiring Manager Name</th>
+          <th>Hiring Manager Contact number</th>
+          <th>Business Manager Name</th>
+          <th>Business Manager Contact number</th>
+          <th>Hiring Manager Email id</th>
+          <th>Business Manager Email id</th>
+          <th>Candidate Status</th>
+        </tr>
+        <tr>
+          <td>1234</td>
+          <td>Manmay</td>
+          <td>Prasad</td>
+          <td>Product</td>
+          <td>1234</td>
+          <td>A4</td>
+          <td>DD/MM/YYYY</td>
+          <td>9891992267</td>
+          <td><a href="">xyz@gmail.com</a></td>
+          <td>9891992287</td>
+          <td>Mr ABC</td>
+          <td>9911843322</td>
+          <td><a href="">xyz@gmail.com</a></td>
+          <td><a href="">xyz@gmail.com</a></td>
+          <td>
+            <select onchange="document.location.href=this.value">
+              <option selected value="">Select</option>
+            <option value="../candidateDashboard.html">Accepted</option>
+            <option value="">Not Accepted</option>
+            </select>
+          </td>
+          
+        </tr>
+        
+      </table>
+      
+    <script src="index.js"></script>
+</body>
+</html>

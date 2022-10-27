@@ -1,0 +1,201 @@
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+    <!--start of left table-->
+    <TR vAlign=top>
+      <TD vAlign=top>
+        <DIV class=dtree>
+          <br />
+          <P style="padding-left: 10px"><A href="javascript:%20d1.openAll();">Open all&nbsp;</A> || <A href="javascript:%20d1.closeAll();">&nbsp;Close all </A></P>
+          <LINK href="includes/dtree/dtree.css" type=text/css rel=StyleSheet>
+          <SCRIPT src="includes/dtree/dtree.js" type=text/javascript></SCRIPT>
+          <SCRIPT type=text/javascript>	
+                          d1 = new dTree('d1');
+                          d1.add(0,-1,'<B>General Control</B>');
+                          d1.add(1,0,'<B>System Configuration</B>');
+                          d1.add(2,0,'<B>Onboarding</B>');
+                          d1.add(3,0,'<B>Employee Self Service</B>');
+                          // d1.add(4,0,'<B>Survey Interaction</B>');
+                          d1.add(4,0,'<B>Manager Self Service</B>');
+                          d1.add(5,0,'<B>Candidate Self Service</B>');
+                          d1.add(6,0,'<B>Survey/Assessment Center</B>');
+                          //d1.add(6,0,'<B>System Support & Monitor</B>');
+                          // d1.add(6,0,'<B>Attendance</B>');					
+                          d1.add(7,0,'<B>Dashboard / Reports</B>');						
+                          d1.add(8,0,'<B>SAAS Billing</B>');
+                          d1.add(9,0,'<B>System Support & Monitor</B>');
+                          //d1.add(10,0,'<B>Security</B>');
+                          // d1.add(11,0,'<B>Portfolio Management</B>');
+                          // d1.add(12,0,'<B>Resource Management</B>');
+                          // d1.add(13,0,'<B>Performance Management</B>');
+                          // /*d1.add(14,0,'<B>Facility Management</B>');*/
+                          // d1.add(15,0,'<B>Reports</B>');
+                          // d1.add(16,0,'<B>Admin</B>');
+  /**********************************************************************************************************/
+                          d1.add(104,1,'Manage System Parameter','Candidate_Registration.html','mainFrame', 'mainFrame');
+                          d1.add(106,1,'Manage Configuration Table','Candidate_Registration.html','mainFrame', 'mainFrame');
+                          d1.add(102,1,'Manage Module','Candidate_Registration.html','mainFrame', 'mainFrame');
+                          d1.add(101,1,'Manage Role','ClientOnboarding.html','mainFrame', 'mainFrame');
+                          d1.add(103,1,'Manage User Access Control','ClientOnboarding.html','mainFrame', 'mainFrame');
+                          // d1.add(104,1,'User Activity Tracking','ClientOnboarding.html','mainFrame', 'mainFrame');
+                          d1.add(105,1,'Manage Device','ClientOnboarding.html','mainFrame', 'mainFrame');
+                          d1.add(107,1,'Manage UI/UX Profile','Candidate_Registration.html','mainFrame', 'mainFrame');
+                          // d1.add(106,1,'Manage Role','ClientOnboarding.html','mainFrame', 'mainFrame'); 
+                          
+                          
+                          d1.add(202,2,'Manage Language','manage_organization.html','mainFrame', 'mainFrame' );
+                          d1.add(203,2,'Manage Organisation','manage_organization.html','mainFrame', 'mainFrame' );
+                          d1.add(204,2,'Manage Business Unit','manage_businessunit.html','mainFrame', 'mainFrame');
+                          d1.add(206,2,'Manage Department','manage_department.html','mainFrame', 'mainFrame');
+                          d1.add(206,2,'Manage Business Group','employee.html','mainFrame', 'mainFrame');
+                          d1.add(206,2,'Manage Employee Grade','manage_emp.html','mainFrame', 'mainFrame');
+                          d1.add(207,2,'Manage Employee Designation','manage_emp.html','mainFrame', 'mainFrame');
+                          d1.add(208,2,'Manage Job position ','job_board.html','mainFrame', 'mainFrame');
+                          d1.add(209,2,'Manage Recruitment Batch ','job_board.html','mainFrame', 'mainFrame');
+
+                          d1.add(301,3,'Message Centre','emp_confirmation.html','mainFrame', 'mainFrame');
+                          d1.add(302,3,'Profile Management','confirmation_letter.html','mainFrame', 'mainFrame');
+                          d1.add(303,3,'Leave Management','confirmation_appraisal.html','mainFrame','mainFrame');
+                          d1.add(304,3,'Insurance Management','confirmation_appraisal.html','mainFrame','mainFrame');
+                          d1.add(305,3,'Flexi Basic Pay','confirmation_appraisal.html','mainFrame','mainFrame');
+                          d1.add(306,3,'Promotion','confirmation_appraisal.html','mainFrame','mainFrame');
+                          d1.add(307,3,'Financial Statement','confirmation_appraisal.html','mainFrame','mainFrame');
+                          d1.add(308,3,'Employee Directory','confirmation_appraisal.html','mainFrame','mainFrame');
+                          d1.add(309,3,'HR Policy','confirmation_appraisal.html','mainFrame','mainFrame');
+                          d1.add(310,3,'Interaction Responce(Chatbot)','confirmation_appraisal.html','mainFrame','mainFrame');
+                          d1.add(311,3,'Scorecard','confirmation_appraisal.html','mainFrame','mainFrame');
+                         
+                          // d1.add(310,3,'New Survey Set Registration','confirmation_appraisal.html','mainFrame','mainFrame');
+                          // d1.add(311,3,'Questionnaire Allocation','confirmation_appraisal.html','mainFrame','mainFrame');
+                          // d1.add(312,3,'Questionnaire Allocation','confirmation_appraisal.html','mainFrame','mainFrame');
+                          // d1.add(313,3,'Manage Survey Schedule','confirmation_appraisal.html','mainFrame','mainFrame');
+                          // d1.add(314,3,'New Schedule','confirmation_appraisal.html','mainFrame','mainFrame');
+                          // d1.add(401,4,'Pre-Onboarding Dashboard','record_resignation.html','mainFrame','mainFrame');
+                          // d1.add(402,4,'Employee Dashboard','emp_clearence_form.html','mainFrame','mainFrame');
+                          // d1.add(403,4,'Survey Dashboard ','clearence_status.html','mainFrame','mainFrame');
+                          // d1.add(404,4,'SAAS Billing ','clearence_status.html','mainFrame','mainFrame');
+                          // d1.add(404,4,'Clearence reminder','clearence_reminder.html','mainFrame','mainFrame');
+                          // d1.add(405,4,'Exit Interview','exit_interview.html','mainFrame','mainFrame');
+                          // d1.add(406,4,'Final Clouser','final_clouser.html','mainFrame','mainFrame');
+                          // d1.add(407,4,'Reliveing Letter','reliveing_letter.html','mainFrame','mainFrame');
+
+                          d1.add(401,4,'Manage Employee','record_resignation.html','mainFrame','mainFrame');
+                          d1.add(402,4,'Manage Candidate','emp_clearence_form.html','mainFrame','mainFrame');
+                          d1.add(403,4,'Manage Survey','record_resignation.html','mainFrame','mainFrame');
+                          d1.add(404,4,'Absent/Leave Approval','clearence_status.html','mainFrame','mainFrame');
+                          d1.add(405,4,'Employee Promotion','clearence_status.html','mainFrame','mainFrame');
+                          d1.add(407,4,'Survey Scorecard','emp_clearence_form.html','mainFrame','mainFrame');
+                          d1.add(408,4,'Employee Scorecard','clearence_status.html','mainFrame','mainFrame');
+                          d1.add(409,4,'Candidate Scorecard','clearence_status.html','mainFrame','mainFrame');
+                          // d1.add(410,4,'Servey Score Board','exit_interview.html','mainFrame','mainFrame');
+                          // d1.add(406,4,'Final Clouser','final_clouser.html','mainFrame','mainFrame');
+                          // d1.add(407,4,'Reliveing Letter','reliveing_letter.html','mainFrame','mainFrame');
+                          /*d1.add(408,4,'Final Clouser','categosries.php');
+                          d1.add(409,4,'Employee Deactivation','categories.php');
+                          d1.add(4010,4,'Schedule Interview','categories.php');
+                          d1.add(4011,4,'Exit Interview Feedback-View','categories.php');
+                          d1.add(4012,4,'Clearence Activity Status -self View','categories.php');*/
+
+
+
+                          // d1.add(501,5,'Error Log Monitor','leave_request.html','mainFrame','mainFrame');
+                          // d1.add(502,5,'User Activity Tracking','leave_cancellation.html','mainFrame','mainFrame');
+                          // d1.add(503,5,'Leave Encashment','leave_encashmet.html','mainFrame','mainFrame');
+                          // d1.add(504,5,'Leave Regularization','leave_regular.html','mainFrame','mainFrame');
+
+                          d1.add(501,5,'Message Center','leave_request.html','mainFrame','mainFrame');
+                          d1.add(502,5,'Profile Management','leave_cancellation.html','mainFrame','mainFrame');
+                          d1.add(503,5,'Interaction Response(Chatbot)','leave_request.html','mainFrame','mainFrame');
+                          d1.add(504,5,'Candidate Scorecard','leave_cancellation.html','mainFrame','mainFrame');
+                          
+                          
+                          d1.add(602,6,'Manage  Category','travel_summary.html','mainFrame','mainFrame');
+                          d1.add(603,6,'Manage  Subject Area','travel_exp.html','mainFrame','mainFrame');
+                          d1.add(604,6,'Manage  Target Group','travel_booking.html','mainFrame','mainFrame');
+                          d1.add(605,6,'Manage  Question Bank','travel_booking.html','mainFrame','mainFrame');
+                          d1.add(606,6,'Manage  Question Set','visa_req.html','mainFrame','mainFrame');
+                          d1.add(607,6,'Manage  Schedule','visa_status.html','mainFrame','mainFrame');
+                          d1.add(608,6,'Manage Notification ','visa_status.html','mainFrame','mainFrame');
+                          d1.add(609,6,'Manage Interaction Response ','visa_status.html','mainFrame','mainFrame');
+                          d1.add(610,6,'Manage Dashboard ','visa_status.html','mainFrame','mainFrame');
+                          
+                          
+                          
+
+                          d1.add(701,7,'Dashboard 1','attendance_reglar.html','mainFrame','mainFrame');
+                          d1.add(702,7,'Dashboard 2','attendance_config.html','mainFrame','mainFrame');
+                          d1.add(703,7,'Dashboard 3','attendance_cancellation.html','mainFrame','mainFrame');
+                          d1.add(701,7,'Dashboard 4','travel_req.html','mainFrame','mainFrame');
+                          d1.add(702,7,'Dashboard 5','travel_summary.html','mainFrame','mainFrame');
+                          d1.add(703,7,'Dashboard 6','travel_exp.html','mainFrame','mainFrame');
+                          d1.add(704,7,'Dashboard 7','travel_booking.html','mainFrame','mainFrame');
+                          d1.add(705,7,'Dashboard 8','visa_req.html','mainFrame','mainFrame');
+                          d1.add(706,7,'Report 1','visa_status.html','mainFrame','mainFrame');
+                          d1.add(707,7,'Report 2','visa_status.html','mainFrame','mainFrame');
+                          d1.add(708,7,'Report 3','visa_status.html','mainFrame','mainFrame');
+                          d1.add(709,7,'Report 4','visa_status.html','mainFrame','mainFrame');
+                          d1.add(710,7,'Report 5','visa_status.html','mainFrame','mainFrame');
+                          d1.add(711,7,'Report 6','visa_status.html','mainFrame','mainFrame');
+                          d1.add(712,7,'Report 7','visa_status.html','mainFrame','mainFrame');
+                          d1.add(713,7,'Report 8','visa_status.html','mainFrame','mainFrame');
+                          d1.add(714,7,'Report 9','visa_status.html','mainFrame','mainFrame');
+                          d1.add(715,7,'Report 10','visa_status.html','mainFrame','mainFrame');
+                          
+                          d1.add(901,9,'User Tracking ','claim_mob.html','mainFrame','mainFrame');
+                          d1.add(902,9,'Error Logger Viewer ','claim_mob.html','mainFrame','mainFrame');
+                          d1.add(903,9,'Internal Message Center','claim_mob.html','mainFrame','mainFrame');
+                          d1.add(904,9,'Ticket/Issue Management','claim_mob.html','mainFrame','mainFrame');
+
+                          d1.add(800,8,'SaaS Billing Configuration','cmspages.php');
+                          d1.add(801,8,'Manage Price Plan ','cmspages.php');
+                          d1.add(802,8,'Manage Subscription','cmspages.php');
+                          d1.add(803,8,'Manage Invoice','cmspages.php');
+                          d1.add(804,8,'Manage Payment ','cmspages.php');
+                          d1.add(805,8,'Invoice Payment Allocation','cmspages.php');
+                          d1.add(806,8,'Manage Adjustment','cmspages.php');
+                          d1.add(807,8,'Manage Bill Statement','cmspages.php');
+                          d1.add(1001,10,'Courses','course_cancellation.html','mainFrame','mainFrame');
+                          d1.add(1002,10,'perticipant','participant.html','mainFrame','mainFrame');
+                          d1.add(1101,11,'Budget','cmspages.php');
+                          d1.add(1102,11,'Plane','cmspages.php');
+                          d1.add(1103,11,'Quality','cmspages.php');
+                          d1.add(1101,11,'Budget','cmspages.php');
+                          d1.add(1201,12,'Project Schedule','cmspages.php');
+                          d1.add(1301,13,'KRA','kra.html','mainFrame','mainFrame');
+                          d1.add(1302,13,'Goal Approval','goal_approval.html','mainFrame','mainFrame');
+                          d1.add(1303,13,'Goal Submission','goal_submission.html','mainFrame','mainFrame');
+                          d1.add(1304,13,'Goal review','goal_review.html','mainFrame','mainFrame');
+                          d1.add(1305,13,'reviewed Goal Approval','reviewed_goal_approval.html','mainFrame','mainFrame');
+                          d1.add(1306,13,'Review & Submission','review_submission.html','mainFrame','mainFrame');
+                          d1.add(1307,13,'Appraisal Intimation','Appraisal_intimation.html','mainFrame','mainFrame');
+                          d1.add(1308,13,'Self Appraisal','self_apprisal.html','mainFrame','mainFrame');
+                          d1.add(1309,13,'Self Appraisal Approval','Self_appraisal_approval.html','mainFrame','mainFrame');
+                          d1.add(13010,13,'Normalization','#.html','mainFrame','mainFrame');
+                          d1.add(13011,13,'Finalization','finalization.html','mainFrame','mainFrame');	
+                          /*d1.add(1401,14,'Guest Arrangement ','cmspages.php');
+                          d1.add(1402,14,'Assets ','cmspages.php');
+                          d1.add(1403,14,'My Needs ','cmspages.php');*/
+                          d1.add(1501,15,'HR ','cmspages.php');	
+                          d1.add(1502,15,'Self ','cmspages.php');	
+                          d1.add(1601,16,'Application Maintenance ','cmspages.php');	
+                          d1.add(1601,16,'Calender Mapping ','cmspages.php');
+                          d1.add(1602,16,'Leave ','cmspages.php');
+                          d1.add(1603,16,'Manage Role Player ','cmspages.php');
+                          d1.add(1604,16,'Induction ','cmspages.php');
+                          d1.add(1605,16,'Travel ','cmspages.php');
+                          d1.add(1605,16,'Recruitment ','cmspages.php');
+                          d1.add(1605,16,'Training ','cmspages.php');
+                          d1.add(1605,16,'Claim  ','cmspages.php');
+                          d1.add(1605,16,'Resource Management ','cmspages.php');
+                          d1.add(1605,16,'Pay Details  ','cmspages.php');
+                          d1.add(1605,16,'Setup HRIS ','cmspages.php');
+                          d1.add(1605,16,'Performance Evaluation ','cmspages.php');
+                              
+                          document.write(d1);
+                  
+                          //-->
+                      </SCRIPT>
+        </DIV>
+        <BR>
+      </TD>
+    </TR>
+  </TABLE>
+  
